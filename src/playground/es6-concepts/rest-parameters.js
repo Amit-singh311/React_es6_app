@@ -1,3 +1,6 @@
+/*
+* Rest paramerts allows us to use as many arguments as possible
+ */
 function collect(...a) {
 	console.log(a);
 }
