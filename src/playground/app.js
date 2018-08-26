@@ -1,15 +1,4 @@
-/*
-* Nesting of the react component.
- */
-/*const obj = {
-	name :'Amit',
-	getName() {
-		return this.name;
-	} 
-}
-//cannot access the getname as the context has been changed
-const getname = obj.getName;
-console.log(getname());*/
+
 class Indecision extends React.Component {
 	render() {
 		const title    = "Indecision";
