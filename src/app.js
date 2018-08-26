@@ -1,4 +1,10 @@
-import {square} from './utils.js';
+import React from 'react'
+import ReactDOM from 'react-dom';
+import validator from 'validator';
 
-console.log(square(4));
-console.log("app is running through webpack");
+const template = <p>jsx </p>
+var app_id   = document.getElementById("app");
+
+ReactDOM.render(template , app_id);
+
+console.log(validator.isEmail('test@yahoo.com'));
