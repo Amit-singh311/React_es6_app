@@ -1,16 +1,17 @@
 import React from 'react';
 //Below are the react components
-export default class Header extends React.Component {
-	
-	render() {
-		
-		console.log(this.props);
+const Header = (props) => {
+
+		console.log(props);
 		return (
 			<div>
-				<h1>{this.props.title}</h1>
-				<h3>{this.props.subtitle}</h3>
+				<h1>{props.title}</h1>
+				{props.subtitle && <h3>{props.subtitle}</h3>}
 			</div>
 
 			);
-	}	
+};
+Header.defaultProps = {
+	title: 'Indecision',
 }
+export default Header;

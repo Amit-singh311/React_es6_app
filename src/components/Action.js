@@ -1,5 +1,6 @@
 import React from 'react';
-//react component
+//stateless functional react component
+
 export default class Action extends React.Component {
 	//self contained method in each component.
 	handlepick() {
