@@ -12,6 +12,22 @@ import Indecision from './components/Indecision'
 		</div>
 	);
 };*/
+/*const Layout = (props) => {
+	return (
+		<div>
+			<p> header </p>
+			{props.children}
+			<p> footer </p>
+		</div>
+		);
+};*/
+/*const Template = (props) => {
+	return (
+		<div>
+			<p>This is the main content</p>
+		</div>
+		)
+}*/
 
 var app_id   = document.getElementById("app");
-ReactDOM.render(<Indecision />, app_id);
+ReactDOM.render((<Indecision options= {['devils den', 'second district']} />), app_id);
