@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
-import Indecision from './components/Indecision'
+import Indecision from './components/Indecision';
+import './styles/styles.css';
 /*
 * stateless functional component does not allow for state but they allow for the props.
  */
